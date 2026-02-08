@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiservice SRLS | Ristrutturazioni Milano</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:'Montserrat', sans-serif; background:#f8f9fa; color:#222;}
+.container {max-width:1200px; margin:auto; padding:40px 20px;}
+h1,h2,h3 {margin-bottom:20px;}
+p {margin-bottom:15px; line-height:1.6;}
+.btn {
+display:inline-block;
+background:#d62828;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+font-weight:600;
+border-radius:5px;
+margin-top:15px;
+}
+header {
+background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+url('https://images.unsplash.com/photo-1588854337118-1c67c08d1f4c');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+header h1 {font-size:42px;}
+header p {font-size:20px;}
+
+.services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px;}
+.card {
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.highlight {
+background:#d62828;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.contact form {
+display:flex;
+flex-direction:column;
+max-width:500px;
+margin:auto;
+}
+input, textarea {
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:4px;
+}
+button {
+background:#222;
+color:white;
+padding:14px;
+border:none;
+font-weight:600;
+cursor:pointer;
+}
+
+footer {
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.whatsapp {
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:18px;
+border-radius:50%;
+font-weight:bold;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Ristrutturazioni Complete a Milano</h1>
+<p>Bagno Completo da 4.750€ • Preventivo Gratuito • Lavori Chiavi in Mano</p>
+<a href="tel:+39333991744" class="btn">Chiama Ora</a>
+</header>
+
+<section class="container">
+<h2>Chi Siamo</h2>
+<p>Multiservice SRLS è un'impresa edile specializzata in ristrutturazioni complete di appartamenti, bagni e cucine a Milano. Offriamo soluzioni chiavi in mano con impianti certificati e gestione totale del progetto.</p>
+</section>
+
+<section class="container">
+<h2>I Nostri Servizi</h2>
+<div class="services">
+<div class="card">
+<h3>Ristrutturazione Bagno</h3>
+<p>Demolizione, impianti, posa piastrelle e sanitari inclusi.</p>
+</div>
+<div class="card">
+<h3>Ristrutturazione Appartamento</h3>
+<p>Lavori completi con coordinamento tecnico e materiali inclusi.</p>
+</div>
+<div class="card">
+<h3>Impianti Certificati</h3>
+<p>Impianti elettrici e idraulici a norma di legge.</p>
+</div>
+</div>
+</section>
+
+<section class="highlight">
+<h2>Offerta Speciale</h2>
+<p>Bagno Completo a partire da <strong>4.750€</strong></p>
+<p>Disponibilità limitata ogni mese</p>
+<a href="tel:+39333991744" class="btn">Richiedi Preventivo</a>
+</section>
+
+<section class="container contact">
+<h2>Richiedi un Preventivo Gratuito</h2>
+<form>
+<input type="text" placeholder="Nome" required>
+<input type="tel" placeholder="Telefono" required>
+<textarea placeholder="Descrivi il lavoro" rows="4"></textarea>
+<button type="submit">Invia Richiesta</button>
+</form>
+</section>
+
+<footer>
+<p>Multiservice SRLS - Milano</p>
+<p>Telefono: +39 333 991 744</p>
+</footer>
+
+<a href="https://wa.me/39333991744" class="whatsapp">WA</a>
+
+</body>
+</html>
