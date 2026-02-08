@@ -142,12 +142,20 @@ text-decoration:none;
 
 <section class="container contact">
 <h2>Richiedi un Preventivo Gratuito</h2>
-<form>
-<input type="text" placeholder="Nome" required>
-<input type="tel" placeholder="Telefono" required>
-<textarea placeholder="Descrivi il lavoro" rows="4"></textarea>
-<button type="submit">Invia Richiesta</button>
+<form action="https://formsubmit.co/edil.multiservice.72@gmail.com" method="POST">
+
+    <input type="text" name="Nome" placeholder="Nome" required>
+
+    <input type="tel" name="Telefono" placeholder="Telefono" required>
+
+    <textarea name="Messaggio" placeholder="Descrivi il lavoro" rows="4"></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Invia Richiesta</button>
+
 </form>
+
 </section>
 
 <footer>
