@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <!-- Google tag (gtag.js) -->
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-923825765"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-923825765');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-923825765');
 </script>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Multiservice SRLS | Ristrutturazioni Milano</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
 <style>
 
-* {margin:0; padding:0; box-sizing:border-box;}
-body {font-family:'Montserrat', sans-serif; background:#f8f9fa; color:#222;}
-.container {max-width:1200px; margin:auto; padding:40px 20px;}
-h1,h2,h3 {margin-bottom:20px;}
-p {margin-bottom:15px; line-height:1.6;}
-.btn {
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#f8f9fa;
+color:#222;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+h1,h2,h3{margin-bottom:20px;}
+p{margin-bottom:15px;line-height:1.6;}
+
+.btn{
 display:inline-block;
 background:#d62828;
 color:white;
@@ -32,8 +46,9 @@ font-weight:600;
 border-radius:5px;
 margin-top:15px;
 }
-header {
-background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+
+header{
+background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
 url('https://images.unsplash.com/photo-1588854337118-1c67c08d1f4c');
 background-size:cover;
 background-position:center;
@@ -41,37 +56,45 @@ color:white;
 text-align:center;
 padding:120px 20px;
 }
-header h1 {font-size:42px;}
-header p {font-size:20px;}
 
-.services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px;}
-.card {
+header h1{font-size:42px;}
+header p{font-size:20px;}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
 background:white;
 padding:30px;
 border-radius:8px;
 box-shadow:0 4px 15px rgba(0,0,0,0.08);
 }
 
-.highlight {
+.highlight{
 background:#d62828;
 color:white;
 text-align:center;
 padding:60px 20px;
 }
 
-.contact form {
+.contact form{
 display:flex;
 flex-direction:column;
 max-width:500px;
 margin:auto;
 }
-input, textarea {
+
+input,textarea{
 padding:12px;
 margin:10px 0;
 border:1px solid #ccc;
 border-radius:4px;
 }
-button {
+
+button{
 background:#222;
 color:white;
 padding:14px;
@@ -80,14 +103,14 @@ font-weight:600;
 cursor:pointer;
 }
 
-footer {
+footer{
 background:#111;
 color:white;
 text-align:center;
 padding:30px;
 }
 
-.whatsapp {
+.whatsapp{
 position:fixed;
 bottom:20px;
 right:20px;
@@ -117,19 +140,24 @@ text-decoration:none;
 
 <section class="container">
 <h2>I Nostri Servizi</h2>
+
 <div class="services">
+
 <div class="card">
 <h3>Ristrutturazione Bagno</h3>
 <p>Demolizione, impianti, posa piastrelle e sanitari inclusi.</p>
 </div>
+
 <div class="card">
 <h3>Ristrutturazione Appartamento</h3>
 <p>Lavori completi con coordinamento tecnico e materiali inclusi.</p>
 </div>
+
 <div class="card">
 <h3>Impianti Certificati</h3>
 <p>Impianti elettrici e idraulici a norma di legge.</p>
 </div>
+
 </div>
 </section>
 
@@ -141,18 +169,23 @@ text-decoration:none;
 </section>
 
 <section class="container contact">
+
 <h2>Richiedi un Preventivo Gratuito</h2>
-<form action="https://formsubmit.co/edil.multiservice.72@gmail.com" method="POST">
 
-    <input type="text" name="Nome" placeholder="Nome" required>
+<form action="https://formsubmit.co/edil.multiservice.72@gmail.com" method="POST"
+onsubmit="gtag('event','conversion',{'send_to':'AW-923825765/206RCJO674gcEOXswbgD'});">
 
-    <input type="tel" name="Telefono" placeholder="Telefono" required>
+<input type="text" name="Nome" placeholder="Nome" required>
 
-    <textarea name="Messaggio" placeholder="Descrivi il lavoro" rows="4"></textarea>
+<input type="tel" name="Telefono" placeholder="Telefono" required>
 
-    <input type="hidden" name="_captcha" value="false">
+<textarea name="Messaggio" placeholder="Descrivi il lavoro" rows="4"></textarea>
 
-    <button type="submit">Invia Richiesta</button>
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_next" value="https://edilmultiservice72-bit.github.io/MULTISERVICE/thankyou.html">
+
+<button type="submit">Invia Richiesta</button>
 
 </form>
 
@@ -164,25 +197,6 @@ text-decoration:none;
 </footer>
 
 <a href="https://wa.me/39333991744" class="whatsapp">WA</a>
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8">
-<title>Privacy Policy - MULTISERVICE SRLS</title>
-</head>
-<body>
-<h1>Privacy Policy</h1>
-
-<p>MULTISERVICE SRLS raccoglie i dati personali forniti tramite il modulo di contatto (nome, email, telefono) esclusivamente per rispondere alle richieste di preventivo.</p>
-
-<p>I dati non vengono ceduti a terzi e sono trattati nel rispetto del Regolamento UE 2016/679 (GDPR).</p>
-
-<p>Per richiedere modifica o cancellazione dei dati, contattaci via email.</p>
-
-<p>Titolare del trattamento: MULTISERVICE SRLS</p>
-
-</body>
-</html>
 
 </body>
 </html>
